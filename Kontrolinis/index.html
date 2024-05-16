@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontrolinis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>List manager</h1>
+    <div class="main">
+
+        <div class="box1">
+
+            <label class="element" for="title">Title</label>
+            <textarea class="title" placeholder="Enter the title here" id="inputTitle" name="title" rows="1" cols="1"> </textarea>
+
+            <label class="element" for="text">Input text bellow</label>
+            <textarea class="text" placeholder="Text..." id="inputText" name="text" rows="4" cols="1"> </textarea>
+
+            <button id="btn"class="btn">Add note</button>
+        </div>
+
+        <div class="box2">
+
+            <div id="task"class="task">
+                <h2 id="taskTitle"></h2>
+                <p id="taskText"></p>
+                <input id="checkbox"type="checkbox" class="checkbox" checked=false>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
